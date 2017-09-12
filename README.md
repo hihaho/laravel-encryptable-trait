@@ -2,13 +2,13 @@ Laravel Encryptable Trait
 =========================
 
 [![Build Status](https://travis-ci.org/HiHaHo-Interactive-Video/laravel-encryptable-trait.svg?branch=master)](https://travis-ci.org/HiHaHo-Interactive-Video/laravel-encryptable-trait)
-[![StyleCI](https://styleci.io/repos/103246398/shield?branch=master)](https://styleci.io/repos/103246398)
+[![StyleCI](https://styleci.io/repos/103246398/shield?branch=master&style=flat)](https://styleci.io/repos/103246398)
 [![Code Climate](https://codeclimate.com/github/HiHaHo-Interactive-Video/laravel-encryptable-trait/badges/gpa.svg)](https://codeclimate.com/github/HiHaHo-Interactive-Video/laravel-encryptable-trait)
 [![Latest Stable Version](https://poser.pugx.org/hihaho/laravel-encryptable-trait/v/stable)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
 [![Total Downloads](https://poser.pugx.org/hihaho/laravel-encryptable-trait/downloads)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
 [![Latest Unstable Version](https://poser.pugx.org/hihaho/laravel-encryptable-trait/v/unstable)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
 [![License](https://poser.pugx.org/hihaho/laravel-encryptable-trait/license)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
-[![Dependency Status](https://www.versioneye.com/user/projects/59b7c7150fb24f0032e40d4e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59b7c7150fb24f0032e40d4e)
+[![Dependency Status](https://www.versioneye.com/user/projects/59b7c7150fb24f0032e40d4e/badge.svg?style=flat)](https://www.versioneye.com/user/projects/59b7c7150fb24f0032e40d4e)
 
 This trait encrypts all your fields (defined in $this->encryptable) before saving it to the database.
 It makes it extremely easy to treat certain fields as encryptable by automatically encrypting and decrypting the values.
