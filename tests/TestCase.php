@@ -23,7 +23,8 @@ abstract class TestCase extends OrchestraTestCase
         // already, this is a no-op.
         // https://github.com/laravel/framework/issues/1181#issuecomment-51627220
         $models = [
-            \HiHaHo\EncryptableTrait\Tests\Fixtures\Payment::class
+            \HiHaHo\EncryptableTrait\Tests\Fixtures\Payment::class,
+            \HiHaHo\EncryptableTrait\Tests\Fixtures\Phone::class,
         ];
         // Reset each model event listeners.
         foreach ($models as $model) {
