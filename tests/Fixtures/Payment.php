@@ -2,8 +2,8 @@
 
 namespace HiHaHo\EncryptableTrait\Tests\Fixtures;
 
-use Illuminate\Database\Eloquent\Model as Eloquent;
 use HiHaHo\EncryptableTrait\Encryptable;
+use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class Payment extends Eloquent
 {

@@ -34,6 +34,7 @@ abstract class TestCase extends OrchestraTestCase
             call_user_func([$model, 'boot']);
         }
     }
+
     /**
      * Define environment setup.
      *
@@ -53,6 +54,7 @@ abstract class TestCase extends OrchestraTestCase
         $app['config']->set('app.cipher', 'AES-256-CBC');
         $app['config']->set('app.key', 'base64:'.base64_encode(random_bytes(32)));
     }
+
     /**
      * Get package providers.
      *

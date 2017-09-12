@@ -6,8 +6,7 @@ use Illuminate\Contracts\Encryption\DecryptException;
 
 /**
  * Trait Encryptable
- * This trait encrypts all your fields (defined in $this->encryptable) before saving it to the database
- * @package HiHaHo\EncryptableTrait
+ * This trait encrypts all your fields (defined in $this->encryptable) before saving it to the database.
  */
 trait Encryptable
 {
@@ -18,11 +17,13 @@ trait Encryptable
             try {
                 return decrypt($value);
             } catch (DecryptException $e) {
-                if(isset($this->dontThrowDecryptException) && $this->dontThrowDecryptException === true)
-                    return null;
+                if (isset($this->dontThrowDecryptException) && $this->dontThrowDecryptException === true) {
+                    return;
+                }
                 throw $e;
             }
         }
+
         return $value;
     }
 
@@ -31,6 +32,7 @@ trait Encryptable
         if (in_array($key, $this->encryptable)) {
             $value = encrypt($value);
         }
+
         return parent::setAttribute($key, $value);
     }
 }
