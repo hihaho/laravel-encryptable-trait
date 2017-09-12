@@ -8,7 +8,7 @@
     "model"
   ],
   "license": "MIT",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "authors": [
     {
       "name": "Robert Boes",
@@ -41,7 +41,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "v1.0.x-dev"
+      "dev-master": "v1.1.x-dev"
     }
   },
   "minimum-stability": "stable"
