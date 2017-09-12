@@ -1,0 +1,48 @@
+{
+  "name": "hihaho/laravel-encryptable-trait",
+  "description": "Laravel encryptable trait, easily make certain fields for eloquent models encryptable",
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "encryptable",
+    "model"
+  ],
+  "license": "MIT",
+  "version": "v1.0.0",
+  "authors": [
+    {
+      "name": "Robert Boes",
+      "email": "robert@boes.io"
+    },
+    {
+      "name": "Mart de Graaf",
+      "email": "mart@martdegraaf.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/encryption": "5.5.*"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "~6.0",
+    "orchestra/testbench": "3.5.*",
+    "orchestra/database": "3.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "HiHaHo\\EncryptableTrait\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HiHaHo\\EncryptableTrait\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "v1.0.x-dev"
+    }
+  },
+  "minimum-stability": "stable"
+}
