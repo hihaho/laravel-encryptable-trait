@@ -11,7 +11,7 @@ use Illuminate\Contracts\Encryption\DecryptException;
 trait Encryptable
 {
     /**
-     * Checks if the attribute is encryptable
+     * Checks if the attribute is encryptable.
      * @param $key
      * @return bool
      */
@@ -21,11 +21,12 @@ trait Encryptable
     }
 
     /**
-     * Decrypts a value
+     * Decrypts a value.
      * @param $value
      * @return string|void decrypted value
      */
-    private function decrypt($value) {
+    private function decrypt($value)
+    {
         try {
             return decrypt($value);
         } catch (DecryptException $e) {
@@ -37,7 +38,7 @@ trait Encryptable
     }
 
     /**
-     * Encrypts a value
+     * Encrypts a value.
      * @param $value
      * @return string
      */
