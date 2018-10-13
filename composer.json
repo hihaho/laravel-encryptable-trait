@@ -21,7 +21,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "illuminate/encryption": "5.5.*|5.6.*"
+    "illuminate/encryption": "^5.5"
   },
   "require-dev": {
     "mockery/mockery": "0.9.*",
