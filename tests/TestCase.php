@@ -9,13 +9,13 @@ abstract class TestCase extends OrchestraTestCase
     /**
      * Setup the test environment.
      */
-    public function setUp()
+    public function setUp() : void
     {
         parent::setUp();
         // migrations only for testing purpose
         $this->loadMigrationsFrom([
             '--database' => 'testbench',
-            '--realpath' => __DIR__.'/migrations',
+            '--path' => __DIR__.'/migrations',
         ]);
         // Laravel is dumb. It calls boot only for the first test but wipes out the observers for others
         // So we call boot ourselves to make event observing work.
