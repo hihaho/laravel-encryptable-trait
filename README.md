@@ -32,7 +32,7 @@ composer require "hihaho/laravel-encryptable-trait:^v1.3"
 ```
 
 ## Requirements
-- illuminate/encryption 5.5+ (Laravel 5.5+)
+- illuminate/encryption 5.8.x (Laravel 5.8.x) or illuminate/encryption 6.x (Laravel 6.x)
 - PHP 7.1+
 
 # Usage
