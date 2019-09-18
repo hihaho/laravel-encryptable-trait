@@ -24,16 +24,16 @@ Our email address is [photoware@hihaho.com](mailto:photoware@hihaho.com)
 
 Simply add the following line to your ```composer.json``` and run ```composer update```
 ```
-"hihaho/laravel-encryptable-trait": "v1.2.*"
+"hihaho/laravel-encryptable-trait": "^v1.3"
 ```
 Or use composer to add it with the following command
 ```bash
-composer require "hihaho/laravel-encryptable-trait:v1.2.*"
+composer require "hihaho/laravel-encryptable-trait:^v1.3"
 ```
 
 ## Requirements
 - illuminate/encryption 5.5+ (Laravel 5.5+)
-- PHP 7.0+
+- PHP 7.1+
 
 # Usage
 Simply add the trait to your models and set the ```$encryptable``` to an array of values that need to be encrypted.
@@ -92,3 +92,4 @@ $phone->imei; //Will return null
 - [Robert Boes](https://github.com/robertboes)
 - [Mart de Graaf](https://github.com/martdegraaf)
 - [Sander Muller](https://github.com/SanderMuller)
+- [ivinteractive](https://github.com/ivinteractive) / [iv-craig](https://github.com/iv-craig)
