@@ -9,7 +9,7 @@ abstract class TestCase extends OrchestraTestCase
     /**
      * Setup the test environment.
      */
-    public function setUp() : void
+    public function setUp(): void
     {
         parent::setUp();
         // migrations only for testing purpose
