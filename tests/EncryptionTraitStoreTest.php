@@ -2,10 +2,10 @@
 
 namespace HiHaHo\EncryptableTrait\Tests;
 
-use Illuminate\Support\Facades\DB;
-use HiHaHo\EncryptableTrait\Tests\Fixtures\Phone;
 use HiHaHo\EncryptableTrait\Tests\Fixtures\Payment;
+use HiHaHo\EncryptableTrait\Tests\Fixtures\Phone;
 use Illuminate\Contracts\Encryption\DecryptException;
+use Illuminate\Support\Facades\DB;
 
 class EncryptionTraitStoreTest extends TestCase
 {
