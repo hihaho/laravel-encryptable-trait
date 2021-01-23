@@ -32,7 +32,7 @@ composer require "hihaho/laravel-encryptable-trait:^v1.3"
 ```
 
 ## Requirements
-- illuminate/encryption 5.8.x (Laravel 5.8.x) or illuminate/encryption 6.x (Laravel 6.x)
+- illuminate/encryption 5.8.x, 6.x, ^7.0 or ^8.0 (matching your Laravel version)
 - PHP 7.1+
 
 # Usage
@@ -57,7 +57,7 @@ class Phone extends Eloquent
 ```
 
 ## DecryptException
-This package will thrown a DecryptException (the default Laravel one: ```Illuminate\Contracts\Encryption\DecryptException```).
+This package will throw a DecryptException (the default Laravel one: ```Illuminate\Contracts\Encryption\DecryptException```).
 You can however set ```$dontThrowDecryptException``` to true to ignore the exception. 
 If the value can't be decrypted it will just return null.
 
