@@ -32,8 +32,8 @@ composer require "hihaho/laravel-encryptable-trait:^v1.3"
 ```
 
 ## Requirements
-- illuminate/encryption 5.8.x (Laravel 5.8.x) or illuminate/encryption 6.x (Laravel 6.x)
-- PHP 7.1+
+- illuminate/encryption ^6.0, ^7.0 or ^8.0
+- PHP 7.2, 7.3, 7.4 or 8.0
 
 # Usage
 Simply add the trait to your models and set the ```$encryptable``` to an array of values that need to be encrypted.
