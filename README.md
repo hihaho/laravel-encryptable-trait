@@ -57,7 +57,7 @@ class Phone extends Eloquent
 ```
 
 ## DecryptException
-This package will thrown a DecryptException (the default Laravel one: ```Illuminate\Contracts\Encryption\DecryptException```).
+This package will throw a DecryptException (the default Laravel one: ```Illuminate\Contracts\Encryption\DecryptException```).
 You can however set ```$dontThrowDecryptException``` to true to ignore the exception. 
 If the value can't be decrypted it will just return null.
 
