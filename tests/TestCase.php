@@ -54,17 +54,4 @@ abstract class TestCase extends OrchestraTestCase
         $app['config']->set('app.cipher', 'AES-256-CBC');
         $app['config']->set('app.key', 'base64:'.base64_encode(random_bytes(32)));
     }
-
-    /**
-     * Get package providers.
-     *
-     * @param \Illuminate\Foundation\Application @app
-     * @return array
-     */
-    protected function getPackageProviders($app)
-    {
-        return [
-            \Orchestra\Database\ConsoleServiceProvider::class,
-        ];
-    }
 }
