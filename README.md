@@ -1,7 +1,7 @@
 Laravel Encryptable Trait
 =========================
 
-[![CI](https://github.com/bumbummen99/laravel-encryptable-trait/actions/workflows/run-tests.yml/badge.svg)](https://github.com/bumbummen99/laravel-encryptable-trait/actions/workflows/run-tests.yml)
+[![run-tests](https://github.com/hihaho/laravel-encryptable-trait/actions/workflows/run-tests.yml/badge.svg)](https://github.com/hihaho/laravel-encryptable-trait/actions/workflows/run-tests.yml)
 [![StyleCI](https://styleci.io/repos/103246398/shield?branch=master&style=flat)](https://styleci.io/repos/103246398)
 [![Code Climate](https://codeclimate.com/github/HiHaHo-Interactive-Video/laravel-encryptable-trait/badges/gpa.svg)](https://codeclimate.com/github/HiHaHo-Interactive-Video/laravel-encryptable-trait)
 [![Latest Stable Version](https://poser.pugx.org/hihaho/laravel-encryptable-trait/v/stable)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
