@@ -1,5 +1,5 @@
 {
-  "name": "skyraptor/laravel-encryptable-trait",
+  "name": "hihaho/laravel-encryptable-trait",
   "description": "Laravel encryptable trait, easily make certain fields for eloquent models encryptable",
   "keywords": [
     "laravel",
