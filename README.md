@@ -24,11 +24,11 @@ Our email address is [photoware@hihaho.com](mailto:photoware@hihaho.com)
 
 Simply add the following line to your ```composer.json``` and run ```composer update```
 ```
-"skyraptor/laravel-encryptable-trait": "^v1.5"
+"hihaho/laravel-encryptable-trait": "^v1.4"
 ```
 Or use composer to add it with the following command
 ```bash
-composer require skyraptor/laravel-encryptable-trait
+composer require hihaho/laravel-encryptable-trait
 ```
 
 ## Requirements
