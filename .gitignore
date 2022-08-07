@@ -1,5 +1,4 @@
-build
-vendor
+vendor/
 node_modules/
 npm-debug.log
 composer.lock
