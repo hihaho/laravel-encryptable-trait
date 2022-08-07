@@ -31,7 +31,7 @@ composer require hihaho/laravel-encryptable-trait
 ```
 
 ## Requirements
-- illuminate/encryption ^8.0 or ^9.0
+- illuminate/encryption ^8.75 or ^9.0
 - PHP 7.4, 8.0 or 8.1
 
 # Usage
