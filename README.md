@@ -1,9 +1,8 @@
 Laravel Encryptable Trait
 =========================
 
-[![Build Status](https://travis-ci.org/HiHaHo-Interactive-Video/laravel-encryptable-trait.svg?branch=master)](https://travis-ci.org/HiHaHo-Interactive-Video/laravel-encryptable-trait)
+[![Build Status](https://github.com/hihaho/laravel-encryptable-trait/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/hihaho/laravel-encryptable-trait)
 [![StyleCI](https://styleci.io/repos/103246398/shield?branch=master&style=flat)](https://styleci.io/repos/103246398)
-[![Code Climate](https://codeclimate.com/github/HiHaHo-Interactive-Video/laravel-encryptable-trait/badges/gpa.svg)](https://codeclimate.com/github/HiHaHo-Interactive-Video/laravel-encryptable-trait)
 [![Latest Stable Version](https://poser.pugx.org/hihaho/laravel-encryptable-trait/v/stable)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
 [![Total Downloads](https://poser.pugx.org/hihaho/laravel-encryptable-trait/downloads)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
 [![Latest Unstable Version](https://poser.pugx.org/hihaho/laravel-encryptable-trait/v/unstable)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
@@ -28,12 +27,12 @@ Simply add the following line to your ```composer.json``` and run ```composer up
 ```
 Or use composer to add it with the following command
 ```bash
-composer require "hihaho/laravel-encryptable-trait:^v1.3"
+composer require hihaho/laravel-encryptable-trait
 ```
 
 ## Requirements
-- illuminate/encryption ^6.0, ^7.0 or ^8.0
-- PHP 7.2, 7.3, 7.4 or 8.0
+- illuminate/encryption ^8.75 or ^9.0
+- PHP 7.4, 8.0 or 8.1
 
 # Usage
 Simply add the trait to your models and set the ```$encryptable``` to an array of values that need to be encrypted.

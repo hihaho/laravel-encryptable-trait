@@ -3,9 +3,9 @@ language: php
 dist: trusty
 
 php:
-  - 7.1
-  - 7.2
-  - 7.3
+  - 7.4
+  - 8.0
+  - 8.1
 
 install:
   - travis_retry composer install --prefer-source --no-interaction
