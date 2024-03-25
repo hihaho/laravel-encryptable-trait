@@ -2,7 +2,6 @@ Laravel Encryptable Trait
 =========================
 
 [![Build Status](https://github.com/hihaho/laravel-encryptable-trait/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/hihaho/laravel-encryptable-trait)
-[![StyleCI](https://styleci.io/repos/103246398/shield?branch=master&style=flat)](https://styleci.io/repos/103246398)
 [![Latest Stable Version](https://poser.pugx.org/hihaho/laravel-encryptable-trait/v/stable)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
 [![Total Downloads](https://poser.pugx.org/hihaho/laravel-encryptable-trait/downloads)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
 [![Latest Unstable Version](https://poser.pugx.org/hihaho/laravel-encryptable-trait/v/unstable)](https://packagist.org/packages/hihaho/laravel-encryptable-trait)
@@ -23,7 +22,7 @@ Our email address is [photoware@hihaho.com](mailto:photoware@hihaho.com)
 
 Simply add the following line to your ```composer.json``` and run ```composer update```
 ```
-"hihaho/laravel-encryptable-trait": "^v3.0"
+"hihaho/laravel-encryptable-trait": "^v4.0"
 ```
 Or use composer to add it with the following command
 ```bash
@@ -31,8 +30,8 @@ composer require hihaho/laravel-encryptable-trait
 ```
 
 ## Requirements
-- illuminate/encryption ^9.0 or ^10.0
-- PHP 8.0 or 8.1 or 8.2
+- illuminate/encryption ^10.0 or ^11.0
+- PHP 8.1, 8.2 or 8.3
 
 # Usage
 Simply add the trait to your models and set the ```$encryptable``` to an array of values that need to be encrypted.
